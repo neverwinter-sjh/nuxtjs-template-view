@@ -15,7 +15,9 @@
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "vue-client-only": "^2.0.0",
+    "vue-scrollbar-live": "^5.7.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",

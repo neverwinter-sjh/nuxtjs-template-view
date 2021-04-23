@@ -20,7 +20,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'class-methods-use-this': 0,
     'max-len': 'off',
-    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    // 'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'no-plusplus': [
       'error',
       {

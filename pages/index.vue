@@ -1,32 +1,25 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">nuxtjs-template</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <div>Index page</div>
 </template>
 
 <script>
-export default {};
+// import XMLHttpRequest from 'xmlhttprequest';
+// import clientOnly from 'vue-client-only';
+
+export default {
+  components: {
+    //  clientOnly,
+  },
+  async asyncData({ app }) {},
+  data() {
+    return {};
+  },
+  watch: {
+    html() {},
+  },
+  mounted() {},
+  methods: {},
+};
 </script>
 
 <style></style>
