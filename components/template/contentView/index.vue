@@ -1,5 +1,7 @@
 <template>
-  <div class="content-view-container"></div>
+  <div class="content-view-container">
+    <div class="cv-inner-container"></div>
+  </div>
 </template>
 
 <script>

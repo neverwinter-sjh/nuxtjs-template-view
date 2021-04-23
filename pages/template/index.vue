@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import '~/assets/css/template.scss';
+import '~/assets/css/template/template.scss';
 
 import SideMenuContainer from '~/components/template/sideMenu/index';
 import ContentViewContainer from '~/components/template/contentView/index';
